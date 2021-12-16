@@ -8,7 +8,7 @@ const app = express()
 
 const dbURI = 'mongodb+srv://GeeksInSneaks:SDEV255@cluster0.a4h2y.mongodb.net/myFirstDatabase?retryWrites=true&w=majority'
 mongoose.connect(dbURI,{useNewURLParser:true,useUnifiedTopology:true}).then(
-     (result) => app.listen(3000)).catch((err)=>console.log(err))
+     (result) => app.listen(8000)).catch((err)=>console.log(err))
 
 // app.listen(3000) //moved to the connect method
 
